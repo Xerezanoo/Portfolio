@@ -1,2 +1,2 @@
-# Portfolio
-Mi portfolio personal
+# Portfolio - Juan García Lanza
+Página web sobre mí: educación, experiencia, redes sociales...
