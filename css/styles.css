@@ -36,6 +36,7 @@
   --bs-gray-900: #212529;
   --bs-primary: #4A6FA1;
   --bs-secondary: #64748B;
+  --bs-custom: #7FA8D1;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -44,6 +45,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 74, 111, 161;
   --bs-secondary-rgb: 100, 116, 139;
+  --bs-custom-rgb: 	127, 168, 209;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -8043,6 +8045,11 @@ textarea.form-control-lg {
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-custom {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-custom-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-success {
